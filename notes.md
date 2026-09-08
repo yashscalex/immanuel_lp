@@ -176,6 +176,12 @@ Avoid:
 
 ## Session log
 
+### 2026-09-09 — Meta Pixel added (implemented, firing unverified)
+
+- User provided the Meta Pixel code (ID 993279120445510) and asked for it on the landing page.
+- Added to `landing-page/index.html`: the fbq loader script and `PageView` track in `<head>`, with the `<noscript>` tracking pixel moved into `<body>` — Vite's HTML parser rejects `<noscript>` content inside `<head>` (`disallowed-content-in-noscript-in-head`), and `<body>` placement is valid HTML with identical behavior.
+- Production build verified; pixel confirmed present in built `dist/client/index.html`. Live firing (Events Manager receipt) not yet verified; no conversion events (e.g. Lead/Purchase) tracked yet — only PageView. Note for later: per the audit's measurement backlog, a `Lead`/`Purchase` event on successful booking redirect would make ad attribution meaningful.
+
 ### 2026-09-09 — booking modal mobile optimization (implemented, unverified end to end)
 
 - User reported the booking modal in mobile view needed optimization, with a screenshot showing a clipped gold circle at the modal's top-right (the auto-focused close button's gold focus ring, cut off by the modal edge) and the "Pay ₹99 & book my slot" button sitting flush at the bottom edge with a scrollbar.
