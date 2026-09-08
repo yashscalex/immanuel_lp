@@ -1,0 +1,172 @@
+- generic: For Senior Managers, Directors & VPs with 10+ Years of Experience ✦ 600+ Senior Professionals Personally Coached ✦ Build Executive Presence That Gets You Noticed ✦ Speak With Authority. Lead With Confidence ✦ Personally-Coached 3-Week Transformation ✦ 95–98% Success Rate ✦ Not Another Course - Real Practice. Real Feedback. ✦
+- generic: Guided by a consultancy the credentials back up. ✦ ICEF Accredited ✦ AIRC Certified Member ✦ British Council Certified Counsellors ✦ Since 2005 ✦ 21+ Years ✦ 500+ University Partners ✦ 6 Branches Across India
+- heading "For Senior Managers, Directors & VPs With 10+ Years of Experience" [level=3]
+- heading "You Already Have The Results. You're Still Not Getting The Recognition." [level=1]
+- heading "It's not your skill. It's that nobody can see it yet." [level=2]
+- paragraph: We help senior professionals build the executive presence, communication authority, and leadership command that actually gets you promoted not another course, a personally-coached 3-week transformation, tracked by name.
+- button "Book Your ₹99 Consultation":
+  - generic: Book Your ₹99 Consultation
+- list:
+  - generic: 600+ professionals coached across India & the Middle East
+  - generic: 95-98% success rate
+  - generic: Not for freshers
+- generic: 12,000 +
+- paragraph: Lives Transformed
+- generic: 8,500 +
+- paragraph: Leadership Breakthroughs
+- generic: 500 +
+- paragraph: Workshops & Masterclasses
+- generic: 98%
+- paragraph: Client Satisfaction
+- heading "Before you keep scrolling this isn't for everyone." [level=2]
+- paragraph: This is NOT for you if
+- paragraph: You have less than 10 years of experiencewe've built something else for you, this isn't it.
+- paragraph: You want a job guarantee or placement assistance we don't do employment, we build the person who gets hired/promoted.
+- paragraph: You're looking for a quick certificate to add to LinkedIn with zero practice.
+- paragraph: You want a refund safety net instead of committing to the work.
+- paragraph: This is for you if
+- paragraph: You have 10+ years of experience and you're done watching less-capable people get the room, the promotion, the mic.
+- paragraph: You've hit a ceiling that has nothing to do with your competenceand everything to do with how you show up.
+- paragraph: You're a manager, director, VP, or senior IC in a technical, corporate, or client-facing role.
+- paragraph: You're ready to actually practice not consume another course and never open it again.
+- paragraph: You want to work with someone who knows your name, not a cohort of 500 strangers.
+- button "Book Your ₹99 Consultation":
+  - generic: Book Your ₹99 Consultation
+- heading "Here's what's actually happening." [level=2]
+- paragraph: You do the work. Your boss knows it. But when the room fills up for the strategic conversation you're not in it.
+- paragraph: "Every quarter you wait:"
+- list:
+  - generic: Someone with less experience gets the promotion you were ready for two years ago.
+  - generic: You walk out of a meeting knowing you had the better point and said nothing.
+  - generic: Your name doesn't come up when leadership talks about "who's ready for the next level."
+- paragraph: This isn't a confidence problem you can think your way out of. It's not something 10 more years of experience fixes on its own, plenty of people in the room have exactly what you have and are still stuck.
+- heading "The gap isn't your capability. It's your visibility." [level=2]
+- heading "Most coaching teaches you what to say. That's not the problem." [level=2]
+- heading "Most communication or leadership training gives you scripts, tips, and frameworks, body language cues, presentation templates, generic \"speak with confidence\" advice." [level=2]
+- paragraph: "The problem: none of that survives contact with a real boardroom."
+- heading "Because under pressure, you don't default to what you learned. You default to what's wired. That's the part sitting below the surface, the beliefs, the nervous-system response, the automatic patterns nobody's trained you to change." [level=2]
+- paragraph: "What others teach (surface):"
+- list:
+  - generic: Communication tips
+  - generic: Presentation skills
+  - generic: Body language
+- paragraph: "What we rewire (below the surface, using NLP):"
+- list:
+  - generic: Limiting beliefs
+  - generic: Subconscious patterns
+  - generic: Autopilot behaviors under pressure
+- text: Neurohow
+- text: your nervous system runs your reactions on autopilot
+- text: Linguisticthe
+- text: language patterns and beliefs keeping you stuck
+- text: Programming/rewiring
+- text: those patterns so presence becomes automatic, not performed
+- button "Book Your ₹99 Consultation":
+  - generic: Book Your ₹99 Consultation
+- heading "Real Professionals. Real Rooms. Real Results." [level=2]
+- region "Image Carousel":
+  - figure:
+  - figure:
+  - figure:
+  - figure:
+  - figure:
+  - group "5 / 7":
+    - figure:
+      - img "image 2080"
+  - figure:
+  - figure:
+  - figure:
+  - button "Previous slide":
+  - button "Next slide":
+  - button "Go to slide 1"
+  - button "Go to slide 2"
+  - button "Go to slide 3"
+  - button "Go to slide 4"
+  - button "Go to slide 5"
+  - button "Go to slide 6"
+  - button "Go to slide 7"
+- button "Book Your ₹99 Consultation":
+  - generic: Book Your ₹99 Consultation
+- heading "What we actually rebuild in 3 weeks" [level=2]
+- paragraph: MINDSET
+- paragraph: Reframe how you think
+- paragraph: Shift from manager-thinking to strategic-leader-thinking using NLP belief restructuring, confidence activation, and resilience under pressure.
+- paragraph: COMMUNICATION
+- paragraph: Build the authority to be heard
+- paragraph: Executive presence, persuasive communication, strategic storytelling, and the ability to hold a roomeven when challenged.
+- paragraph: LEADERSHIP
+- paragraph: Lead like the room already sees you as one
+- paragraph: Strategic decision-making, negotiation, conflict resolution, and the presence that gets you sought out for the next levelnot passed over for it.
+- button "Book Your ₹99 Consultation":
+  - generic: Book Your ₹99 Consultation
+- heading "Immanuel Williams" [level=2]
+- paragraph: Leadership Coach & Founder
+- paragraph: "After 20 years in corporate, Immanuel hit the same wall his clients now come to him with: expertise without presence gets overlooked. So he built the system he wished someone had given him."
+- paragraph: He's personally coached 600+ professionals across India, the Middle East, and beyond and he's still personally involved with every client who joins.
+- paragraph: "What his clients get:"
+- list:
+  - generic: Tracked by namenot a face in a cohort
+  - generic: Direct feedback from Immanuel, not a rotating junior coach
+  - generic: A system built on 20 years of watching what actually gets people promoted, not theory
+- heading "From \"stuck\" to a real plan in 3 steps" [level=2]
+- paragraph: Book Your Call
+- paragraph: Pick a slot, pay ₹99. It takes 2 minutes.
+- heading "01" [level=2]
+- paragraph: Have Your Consultation
+- paragraph: 60-minute live call with our team. We assess where you're actually stucknot where you think you are.
+- heading "02" [level=2]
+- paragraph: Get Your Plan
+- paragraph: "Within 24 hours, a personalized recommendation: your core gaps, the right program fit, and your next step. No pressure, no obligation."
+- heading "03" [level=2]
+- button "Book Your ₹99 Consultation":
+  - generic: Book Your ₹99 Consultation
+- heading "What You Walk Away With In 3 Weeks" [level=2]
+- paragraph: Clarity on the actual block holding you back, not the story you've been telling yourself.
+- paragraph: Real confidence not performed, not "fake it till you make it."
+- paragraph: The ability to say what you mean, in the room, and have people act on it.
+- paragraph: A personal brand that gets you noticed before you even speak.
+- paragraph: A clear roadmap for your next move, promotion, new role, or scaling where you are.
+- paragraph: Frameworks you use starting the same week in your next meeting, not "eventually."
+- button "Book Your ₹99 Consultation":
+  - generic: Book Your ₹99 Consultation
+- heading "From \"stuck\" to a real plan in 3 steps" [level=2]
+- generic "Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys":
+  - generic "Is 3 weeks really enough?":
+    - generic: Is 3 weeks really enough?
+  - region "Is 3 weeks really enough? Week 1 is clarity and mindset. Week 2 is building the frameworks. Week 3 is integration into your real situation. The shift starts in week one the compounding continues long after.":
+    - region "Is 3 weeks really enough? Week 1 is clarity and mindset. Week 2 is building the frameworks. Week 3 is integration into your real situation. The shift starts in week one the compounding continues long after.":
+      - paragraph: Week 1 is clarity and mindset. Week 2 is building the frameworks. Week 3 is integration into your real situation. The shift starts in week one the compounding continues long after.
+  - generic "I'm already doing fine. Is this even for me?":
+    - generic: I'm already doing fine. Is this even for me?
+  - generic "Do I need to have zero confidence to start?":
+    - generic: Do I need to have zero confidence to start?
+  - generic "Will Immanuel actually know who I am?":
+    - generic: Will Immanuel actually know who I am?
+  - generic "What if I don't get results?":
+    - generic: What if I don't get results?
+- heading "You're not broken." [level=2]
+- heading "You're just not being seen yet." [level=2]
+- paragraph: You already did the hard partthe 10+ years, the results, the expertise. What's missing is the presence that makes it impossible to overlook.
+- paragraph: Spots are limited each cohort we only take people we can personally track.
+- button "Book Your ₹99 Consultation":
+  - generic: Book Your ₹99 Consultation
+- list:
+  - generic: 600+ professionals coached across India & the Middle East
+  - generic: 95-98% success rate
+  - generic: Not for freshers
+- paragraph: "Disclaimer: In no way we are associated with Facebook or Google. Once you leave Facebook the responsibility is no longer on any Facebook-owned entity. Your privacy is 100% secure and will NEVER be shared."
+- list:
+  - link "Privacy Policy":
+    - /url: https://immanuelwilliams.com/privacy-policy/
+    - generic: Privacy Policy
+  - link "Terms & Conditions":
+    - /url: https://immanuelwilliams.com/terms-conditions/
+    - generic: Terms & Conditions
+  - link "Refund & Returns Policy":
+    - /url: https://immanuelwilliams.com/refund_returns/
+    - generic: Refund & Returns Policy
+- generic: ₹99 499
+- paragraph: Limited Time Offer
+- button "Book Now!":
+  - generic: Book Now!
+- generic: mobile
