@@ -109,6 +109,56 @@ Helper text: Personalized recommendation within 24 hours. Further coaching is op
 
 The duration, recommendation timing, and optional nature are based on current published copy, not operational verification. Confirm before reuse. State clearly that ₹99 is the consultation fee and disclose separate program pricing/terms at the appropriate stage.
 
+## Competitor analysis — Kapable (https://form.kapable.club/version-10)
+
+Reviewed 2026-09-08 via static content fetch (HTML text and link structure). Rendered counters showed as "0+" in the fetch (animated values appear via JavaScript), FAQ answers were collapsed and not captured, and no viewport screenshots or visual styling inspection were performed. The user describes the look as "very clean"; the structural observations below are consistent with that, but visual details (color, typography, spacing) are unverified.
+
+### Funnel identification
+
+This is a paid-taster funnel page, structurally the same model as Immanuel's page: a low-ticket first session that leads into a higher-priced program. URL (`form.kapable.club/version-10`) suggests a numbered funnel variant, possibly one of several A/B versions.
+
+- Offer: first 1-on-1 leadership session at ₹499, anchored against a struck-through ₹5,299 ("90% OFF").
+- Program price is not disclosed; the program is pitched after the session.
+
+### How Kapable positions via content
+
+1. **Brand-first, not coach-first.** The page sells "Kapable" and an institution: "our leadership coaches," "program advisors," "your trainer." No single-person hero. Immanuel's page does the opposite (personal brand). This is a genuine differentiator to keep, not copy.
+2. **The session itself is positioned as a valuable product.** It is called a "1-on-1 Leadership Session" — not a consultation or discovery call. Step 3 promises concrete deliverables from the session: "your trainer identifies your skill patterns and gaps. You'll walk away with self-awareness, clarity on your leadership challenges, and insights on what it takes to perform at your best." The ₹499 buys an experience, which makes the later program pitch feel earned rather than baited.
+3. **Personalization is the core sales argument.** "Choose and Customise Your Program" (six tracks: structured thinking, leadership/team management, influence & charisma, presentation & storytelling, negotiation & persuasion, communication & public speaking); "Personalised Curriculum"; closing CTA "Every Leader is Different. One size DOES NOT fit all." The final CTA leads with personalization, not price.
+4. **The funnel is explained honestly, up front.** A 4-step "Application Process" states the full sequence including the handoff: (01) schedule the session → (02) pre-session advisor call to understand role, challenges, goals and preview the program → (03) attend the 1-on-1 → (04) "if you liked the experience and found value… you can continue into the Leadership Program." This answers the buyer's "what happens after I pay and will I be sold to?" question before it is asked. Immanuel's page hides this exact handoff (P0 finding above).
+5. **Proof density is high and stacked early.** Hero carries: alumni headshots strip, four animated counters (professionals trained, cohorts graduated, NPS, average rating), a click-to-watch video, "Trusted by Leaders from Top Global Companies" logos, and ten named video testimonials with full names. Borrowed credibility appears via "Program Designed By Alumni Of" (institution logos). This mirrors the statistics-wall pattern critiqued in Immanuel's audit — Kapable leans on volume; Immanuel should still pick one or two supported proof points.
+6. **Inclusive audience framing.** "Crafted for individuals across various stages of their leadership journey" with three segments (Founders/Entrepreneurs, CXOs/Directors, VPs/Senior Managers). No hard years-of-experience cutoff, no negative qualification. Contrast with Immanuel's 10+ years requirement and hostile refund-language finding.
+7. **Outcome language is short, confident, and verb-led.** "What Will You Learn" is twelve 2–5 word bullets; "Program Outcomes" is four headline promises ("Communicate with Conviction," "Lead with Authority"). Very little methodology explanation — no NLP-style mechanism talk.
+8. **Tangible artifacts reduce perceived risk:** a leadership certification section with three benefit bullets and a certificate visual, plus a Google-reviews badge beside the second testimonial block.
+9. **Repeated identical CTA:** every conversion point is "book the first session at ₹499." The program is never mixed into the purchase decision.
+
+### Clean-look structural patterns worth mirroring
+
+- One idea per section with a short H2, a one-line subhead, then a card grid (icon/photo + title + one-line benefit). No paragraph-heavy sections.
+- Numbered steps (01–04) instead of prose for the process.
+- Generous whitespace; single consistent CTA treatment; minimal footer (logo, terms, privacy only).
+- No visible ticker, no moving copy in the text layer, no competing accent colors observed in content structure.
+- Testimonials are named people with video, presented in a compact grid rather than a wall of screenshots.
+
+### What Immanuel should adopt vs. avoid
+
+Adopt:
+- Frame the ₹99 purchase as a valuable session with named deliverables (aligns with the existing "What you'll leave the consultation with" proposal).
+- Publish the real funnel sequence as numbered steps, including the advisor/coach handoff and the optional nature of further coaching.
+- Lead the final CTA with personalization (e.g., a plan built for your situation), with the ₹99 as fact rather than a discount story.
+- Card-based sections with one-line benefits; short verb-led outcome bullets; minimal footer.
+
+Avoid:
+- Statistic walls (four counters + logos + ten testimonials in one scroll); Immanuel's audit already recommends fewer, documented claims.
+- Anchor-discount pricing ("₹5,299 → ₹499, 90% OFF") unless a genuine basis exists — same concern as the ₹499/"Limited Time Offer" finding on Immanuel's page.
+- Generic brand-first positioning; Immanuel's personal brand and face are the differentiated asset.
+- Undisclosed program pricing ambiguity is acceptable for Kapable's brand funnel, but Immanuel's page should still state that further coaching is optional and separately priced (already in the P1/P0 recommendations).
+
+### Open items from this review
+
+- Re-check the rendered page in a browser to capture real counter values, FAQ answers, visual styling, and mobile layout before borrowing any specific pattern.
+- Confirm what the ₹499/₹5,299 anchor and NPS claims stand on if any comparison is cited to stakeholders.
+
 ## Priorities
 
 - **P0:** remove irrelevant ticker content; distinguish consultation from coaching; reconcile/verify claims; explain actual booking handoff.
@@ -125,6 +175,32 @@ The duration, recommendation timing, and optional nature are based on current pu
 - Measure page visits → CTA clicks → form starts → successful submissions → paid bookings → attended consultations. Compare qualified bookings and attendance after changes, not just clicks.
 
 ## Session log
+
+### 2026-09-08 — prototype updated: session framing + booking form (implemented, unverified end to end)
+
+User approved the Kapable-inspired changes and requested a working booking popup. Implemented in `landing-page/` (prototype only; the live immanuelwilliams.org page was not touched):
+
+- Content reframed from "consultation" to "1-on-1 session" across hero, takeaways ("What you'll leave the session with"), 4-step "How it works" (book → pre-session conversation → attend → optional coaching), final CTA ("Your situation is specific. Your session should be too."), FAQs, header, and mobile sticky bar. Step grid changed from 3 to 4 columns.
+- CTA buttons now open the in-page booking modal with name, email, and phone fields plus a booking summary (₹99 · 60 minutes · 1-on-1) and privacy helper text. Replaced the previous outbound link to immanuelwilliams.org/consultation.
+- Form submissions POST (no-cors, 4-second timeout so checkout is never blocked) name, email, phone, captured UTM parameters (utm_source/medium/campaign/term/content, persisted via sessionStorage), timestamp, and page URL to a Google Apps Script Web App that appends a row to the user's Google Sheet (id 11mheAaKnPTPku11hoRiKoqPcpYht-CYu0R3KmwXK41g). Script and setup instructions added at `landing-page/google-apps-script/`.
+- After submission (or on failure/timeout), the user is redirected to the Razorpay payment link https://pages.razorpay.com/pl_TWOtKi8EAol9CR/view. Button label reflects this: "Pay ₹99 & book my slot".
+- `SHEET_WEBHOOK_URL` in `src/App.jsx` is a placeholder until the user deploys the Apps Script; submissions will log a console warning and still redirect. Production build verified (`npm run build` passes); end-to-end sheet write and payment flow are unverified.
+- Operational facts still to confirm per prior notes: the pre-session conversation step mirrors Kapable's funnel and the user's approval, but Immanuel's actual process has not verified that a pre-session call happens; the session host (team vs Immanuel) also remains unverified. Razorpay link destinations and post-payment confirmation flow remain untested.
+- Decisions recorded in `landing-page/AGENTS.md` per prototype instructions.
+
+### 2026-09-08 — competitor review: Kapable version-10
+
+- User asked to analyze how form.kapable.club/version-10 positions itself via content and noted its clean look.
+- Performed a static content fetch (markdown/text). Animated counters rendered as "0+", FAQ answers and logos/images were not captured, and no rendered-viewport or visual inspection was done; design observations are structural inferences plus the user's description.
+- Added a "Competitor analysis — Kapable" section above Priorities: funnel identification, nine positioning observations, clean-look structural patterns, adopt-vs-avoid recommendations for Immanuel, and open items.
+- Key takeaways for the Immanuel page: frame the ₹99 purchase as a valuable session with named deliverables, publish the real funnel sequence as numbered steps including the handoff, lead the final CTA with personalization, use card-based one-idea sections — while avoiding Kapable's statistic walls, anchor-discount pricing, and generic brand-first framing (Immanuel's personal brand is the differentiator).
+- No changes made to the prototype or production pages.
+
+### 2026-09-08 — repo/deployment work (outside this audit's scope, recorded for continuity)
+
+- Pushed the repository to github.com/hsay95/immanuel_lp (remote `origin`).
+- Vercel deployment initially 404'd because the Vite app lives in `landing-page/`; added a root `vercel.json` building `landing-page/dist/client` and redeployed successfully to immanuel-lp.vercel.app.
+- Prototype dev server run instructions per `landing-page/AGENTS.md`; no audit evidence changed.
 
 ### 2026-09-08 — structural conversion proposal
 
