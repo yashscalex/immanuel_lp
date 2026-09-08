@@ -176,6 +176,22 @@ Avoid:
 
 ## Session log
 
+### 2026-09-09 — booking modal mobile optimization (implemented, unverified end to end)
+
+- User reported the booking modal in mobile view needed optimization, with a screenshot showing a clipped gold circle at the modal's top-right (the auto-focused close button's gold focus ring, cut off by the modal edge) and the "Pay ₹99 & book my slot" button sitting flush at the bottom edge with a scrollbar.
+- Fixes in `landing-page/src/`:
+  - Modal focus now goes to the dialog itself (`tabIndex={-1}`, outline suppressed) instead of the close button, so no clipped focus ring appears on open; keyboard focus return behavior unchanged.
+  - Tightened mobile (≤700px) modal spacing: smaller heading (24px), compressed summary rows, form gaps, helper/terms text, and safe-area-aware bottom padding so the full form plus pay button fits typical phone viewports with minimal scroll.
+  - Inputs raised to 16px font on mobile to prevent iOS Safari's auto-zoom on focus.
+  - Added `.close-button:focus-visible{outline-offset:1px}` so the ring is never clipped if the close button is keyboard-focused.
+- `npm run build` passes. No visual re-verification in a mobile viewport yet; live sheet/payment flow still unverified.
+
+### 2026-09-08 — removed distorted coach photo
+
+- User flagged the overlapping "working at desk" photo (`1A8A0927-scaled-1.webp`) in the Meet Immanuel section as distorted.
+- Removed the image, its `.working-photo`/`.coach-photos` overlap styling, and the asset file. The section now shows the single office portrait. Committed and pushed; Vercel redeploys automatically.
+- Deploy note: the Vercel preview URL (`immanuel-94zpqvtvj-...vercel.app`) is a per-deployment alias; the production URL remains immanuel-lp.vercel.app.
+
 ### 2026-09-08 — prototype updated: session framing + booking form (implemented, unverified end to end)
 
 User approved the Kapable-inspired changes and requested a working booking popup. Implemented in `landing-page/` (prototype only; the live immanuelwilliams.org page was not touched):
