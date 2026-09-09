@@ -176,6 +176,17 @@ Avoid:
 
 ## Session log
 
+### 2026-09-09 — Vercel Analytics added (implemented, data collection unverified)
+
+- User requested Vercel Analytics. The suggested `@vercel/analytics/next` import is Next.js-specific; this Vite app uses `@vercel/analytics/react` with an `<Analytics />` component rendered at the root of `App` in `landing-page/src/App.jsx`. Package installed (`@vercel/analytics`).
+- `npm run build` passes. Data should appear in Vercel → Analytics after the deploy goes live; not yet verified.
+
+### 2026-09-09 — deploy blocked on Vercel (Hobby plan, GitHub account mismatch — diagnosis)
+
+- Pushes to `yashscalex/immanuel_lp` (private) were blocked by Vercel: the project is linked to the `hsay95` GitHub account while local git credentials push as `yashscalex`. Hobby plan only allows private-repo deploys from the Vercel account's linked GitHub account.
+- Commit author email was amended twice during troubleshooting (`rishabh@scalex.club`, then `yashjain@scalex.club`); repo git config now uses `yashjain@scalex.club`. This alone did not resolve the block.
+- Remaining fix (user action, browser): relink Vercel's connected GitHub account to `yashscalex` (Account Settings → Connected Accounts), or transfer the repo back to `hsay95` and switch local credentials. Unresolved at time of writing.
+
 ### 2026-09-09 — instant redirect to payment after form submission (implemented, sheet write unverified)
 
 - User reported the wait between form submission and the Razorpay redirect was too long. Cause: `handleSubmit` in `landing-page/src/App.jsx` awaited the Google Apps Script POST (capped at 4s) before navigating, so users waited up to 4s on Apps Script latency.
