@@ -20,11 +20,11 @@ e.preventDefault();
 if(submitting)return;
 setSubmitting(true);
 const payload={...form,...utms.current,timestamp:new Date().toISOString(),page_url:window.location.href};
-try{
+// keepalive lets the lead POST finish even after we navigate away, so the
+// redirect to Razorpay can happen instantly instead of waiting for the sheet.
 if(SHEET_WEBHOOK_URL.startsWith('https://script.google')){
-await Promise.race([fetch(SHEET_WEBHOOK_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(payload)}),new Promise(r=>setTimeout(r,4000))]);
+fetch(SHEET_WEBHOOK_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(payload),keepalive:true}).catch(err=>console.error('Sheet submission failed:',err));
 }else{console.warn('SHEET_WEBHOOK_URL is not set — lead not saved. See google-apps-script/README.')}
-}catch(err){console.error('Sheet submission failed:',err)}
 window.location.assign(RAZORPAY_URL);
 };
 const cta=(extra='')=><button className={`button ${extra}`} onClick={book}>Book your ₹99 session <ArrowRight size={21} aria-hidden="true"/></button>;

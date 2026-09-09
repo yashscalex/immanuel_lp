@@ -176,6 +176,12 @@ Avoid:
 
 ## Session log
 
+### 2026-09-09 — instant redirect to payment after form submission (implemented, sheet write unverified)
+
+- User reported the wait between form submission and the Razorpay redirect was too long. Cause: `handleSubmit` in `landing-page/src/App.jsx` awaited the Google Apps Script POST (capped at 4s) before navigating, so users waited up to 4s on Apps Script latency.
+- Fix: the lead POST now fires with `fetch(..., {keepalive:true})` — which completes even after navigation — and `window.location.assign(RAZORPAY_URL)` runs immediately. No more blocking timeout.
+- `npm run build` passes. Sheet-write reliability with keepalive not yet verified end to end; the redirect experience should now be near-instant. AGENTS.md decision updated to record the new durable rule.
+
 ### 2026-09-09 — Meta Pixel added (implemented, firing unverified)
 
 - User provided the Meta Pixel code (ID 993279120445510) and asked for it on the landing page.
